@@ -1,38 +1,87 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-color: #19232d;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconscard {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.iconscontainer {
+  background-color: #202b36;
+  color: #5a7184;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.section1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section2 {
+  padding: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.addsection {
+  font-size: 14px;
+  color: #5a7184;
+  margin-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img {
+  height: 40px;
+  width: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  text-align: center;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon1 {
+  font-size: 20px;
+  color: #5a7184;
+}
+
+.icon2 {
+  font-size: 15px;
+  color: #5a7184;
+}
+
+.cardheading1 {
+  font-size: 15px;
+  color: #5a7184;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardheading2 {
+  font-size: 12px;
+  color: #5a7184;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
+.cardpara1 {
+  font-size: 12px;
+  color: #5a7184;
+  margin-left: 15px;
+}
+
+.cardpara2 {
+  font-size: 12px;
+  color: #5a7184;
+}
+
+.line1 {
+  background-color: #5a7184;
 }
